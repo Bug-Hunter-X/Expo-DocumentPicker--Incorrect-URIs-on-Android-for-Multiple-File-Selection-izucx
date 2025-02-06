@@ -1,0 +1,1 @@
+This bug occurs when using the Expo DocumentPicker API on Android.  When selecting multiple files, the returned URIs are incorrect, leading to errors when attempting to access the selected files. The URIs might be truncated or point to non-existent locations.
